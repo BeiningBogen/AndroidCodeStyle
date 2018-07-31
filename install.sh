@@ -1,11 +1,11 @@
 #!/bin/bash
-# Installs GCX AndroidStudio Code Style into your AndroidStudio codestyles folder.
-# Inspired by https://git.io/v7jmC
+# Installs B&B Android Studio Code Style into your AndroidStudio codestyles folder.
+# Inspired by https://github.com/grandcentrix/AndroidCodeStyle
 
-echo "Installing GCX AndroidStudio code style..."
+echo "Installing B&B Android Studio code style..."
 echo ""
 
-LATEST_CODE_STYLE="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )/styles/grandcentrix.xml"
+LATEST_CODE_STYLE="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )/styles/codestyle.xml"
 for TARGET_DIR in $HOME/Library/Preferences/AndroidStudio*         \
                   $HOME/Library/Preferences/AndroidStudioPreview*  \
                   ~/.AndroidStudio*/config                         \
@@ -24,4 +24,4 @@ done
 
 echo ""
 echo "Done."
-echo "Restart AndroidStudio. Go to Preferences->Editor->Code Style and apply Scheme 'grandcentrix'."
+echo "Restart AndroidStudio. Go to Preferences->Editor->Code Style and apply Scheme 'BBAndroidCodeStyle'."
