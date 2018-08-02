@@ -57,7 +57,7 @@ Make sure a Java source file has focus (or you can’t record all steps)
 - Select Code > Reformat Code
 - Select Code > Rearrange Code
 - Select File > Save All
-- Select Edit > Macros > Stop Macro Recording and give it a name (mine is OptimizeImportsReformatRearrangeSave)
+- Select Edit > Macros > Stop Macro Recording and give it a name (for example OptimizeImportsReformatRearrangeSave)
 
 Go to Preferences > Keymap
 - Find the Macro section
