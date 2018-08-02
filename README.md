@@ -46,14 +46,6 @@ Finally add the code style to the git repository:
 git add -f .idea/codeStyleSettings.xml
 ```
 
-## Contributing
-To contribute just change the code style locally to your needs.
-Then you can create a PR to this repository.
-
-The PR should always contain:
-* Some information what have changed.
-* A updated [`codestyle.xml`](styles/codestyle.xml).
-
 ## Pro tip: Reformat on save
 [Taken from passy's excellent blog post which you can find here](https://android.jlelse.eu/7-reasons-this-android-code-style-improves-your-productivity-65d196fa55f)
 
@@ -72,6 +64,14 @@ Go to Preferences > Keymap
 - Add ⌘ + S shortcut for the new macro
 
 Alternatively you can reformat code with ⌥+⌘+L . When you select parts of your code, only those get reformatted. This doesn’t reorder your code or changes imports. It's best to use when touching code which doesn’t have a code style.
+
+## Contributing
+To contribute just change the code style locally to your needs.
+Then you can create a PR to this repository.
+
+The PR should always contain:
+* Some information what have changed.
+* A updated [`codestyle.xml`](styles/codestyle.xml).
 
 ## License
 [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/legalcode)
