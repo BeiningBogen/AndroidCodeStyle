@@ -5,7 +5,7 @@ Code formatting rules for Android Studio
 ## Features
 - Based on googles java code style (https://git.io/v5XuB)
 - [No star imports](https://github.com/grandcentrix/AndroidCodeStyle/issues/5) except for testing libraries
-- Increase the line length to 140
+- Increase the line length to 180
 - `android:id` after `xmlns` declaration in XML layouts
 - [Keep lifecycle methods together](https://github.com/grandcentrix/AndroidCodeStyle/issues/3)
 - [Keep getters and setters together](https://github.com/grandcentrix/AndroidCodeStyle/issues/7)
